@@ -1,0 +1,8 @@
+Split,Model_rank,Model_name,TM,Delta_TM,Rho_TM,Rho_EC,INFWC,INFNWC,References
+Monomers,1,NuFold,0.393,-0.151,0.74,0.67,0.78,0.19,"Kagaya et al., 2025 (Nat. Commun.)"
+Monomers,2,AlphaFold3,0.386,-0.167,0.71,0.60,0.83,0.26,"Abramson et al., 2024 (Nature)"
+Monomers,3,trRosettaRNA,0.382,-0.152,0.60,0.58,0.75,0.12,"Wang et al., 2023 (Nat. Commun.)"
+Monomers,4,RhoFold+,0.367,-0.172,0.72,0.62,0.50,0.09,"Shen et al., 2024 (Nat. Methods)"
+Monomers,5,RoseTTAFold2NA,0.365,-0.154,0.67,0.55,0.74,0.21,"Baek et al., 2024 (Nat. Methods)"
+Complexes,1,AlphaFold3,0.381,-0.130,0.55,0.77,0.86,0.37,"Abramson et al., 2024 (Nature)"
+Complexes,2,RoseTTAFold2NA,0.168,-0.294,0.24,0.55,0.18,0.00,"Baek et al., 2024 (Nat. Methods)"

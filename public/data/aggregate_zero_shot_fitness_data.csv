@@ -1,0 +1,9 @@
+Model_rank,Model_name,Average_Spearman,Average_AUC,Average_MCC,References
+1,Evo 2,0.276,0.636,0.212,"Brixi et al., 2025 (bioRxiv 2025.02.18.638918)"
+2,RNA-FM,0.217,0.605,0.155,"Chen et al., 2022"
+3,RNAErnie,0.189,0.598,0.154,"Wang et al., 2024 (Nature Mach. Intell.)"
+4,Evo 1.5,0.177,0.583,0.131,"Merchant et al., 2024 (bioRxiv)"
+5,Nucleotide Transformer,0.163,0.577,0.115,"Dalla‑Torre et al., 2023 (bioRxiv 2023.01.11.523679)"
+6,RiNALMo,0.155,0.582,0.122,"Penić et al., 2024"
+7,Evo 1,0.124,0.561,0.091,"Nguyen et al., 2024 (bioRxiv 2024.02.27.582234)"
+8,GenSLM,0.122,0.558,0.083,"Zvyagin et al., 2023 (IJHPCA)"

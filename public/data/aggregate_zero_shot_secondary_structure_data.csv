@@ -1,0 +1,8 @@
+Model_rank,Model_name,F1_score,AUC,MAE,References
+1,EternaFold,0.656,0.712,0.338,"Wayment‑Steele et al., 2022 (Nature Methods)"
+2,CONTRAfold,0.653,0.708,0.353,"Do et al., 2006 (Bioinformatics)"
+3,Vienna,0.644,0.694,0.308,"Gruber et al., 2008 (NAR)"
+4,RNAstructure,0.643,0.692,0.312,"Reuter & Mathews, 2010 (BMC Bioinformatics)"
+5,RNA-FM,0.601,0.645,0.274,"Chen et al., 2022"
+6,UFold,0.574,0.611,0.324,"Fu et al., 2022 (NAR)"
+7,MXfold2,0.518,0.529,0.446,"Sato et al., 2021 (Nat. Commun.)"

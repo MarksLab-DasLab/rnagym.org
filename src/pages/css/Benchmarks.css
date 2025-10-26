@@ -1,0 +1,82 @@
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; 
+}
+
+.th-header { 
+    white-space: normal; /* Prevent text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+    background:#b4ddef;
+    color:black !important;
+    border-color: black !important;
+}
+
+.truncate-cell {
+  white-space: nowrap;
+  background:#ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  padding-top:5vh;
+  padding-bottom: 2vh;
+}
+
+.search-and-buttons{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.viewtype-buttons{
+  display:flex;
+  justify-content:right;
+  align-items: center;
+  width:50%;
+}
+
+.dropdowns{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.sticky-column{
+  position:sticky;
+  left: 0;
+  z-index:1;
+  background:#ffffff;
+}
+
+.default-header{
+  position:relative;
+  z-index:2;
+  color: black !important;
+  background:#b4ddef;
+  border-color:black !important;
+}
+
+.default-row{
+  position:relative;
+  z-index: 0;
+  background:#ffffff;
+}
+
+.th-fixed-header{
+  position:sticky;
+  left:0;
+  z-index:3;
+  background:#b4ddef;
+  color:black !important;
+  border-color: black !important;
+  white-space: nowrap;
+}
