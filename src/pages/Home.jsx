@@ -5,7 +5,7 @@ function Home() {
         <div className="home-div">
             <div className="top-div">
                 <div className="images-div" style={{ display: "flex", justifyContent: "center" }}>
-                    <img src="/assets/RNAGym.png" style={{ width: "20%", height: "20%", height: "auto" }} />
+                    <img src="/assets/RNAGym_small.png" style={{ width: "40%", height: "40%", height: "auto" }} />
                 </div>
                 <h1 style={{marginTop: "2vh", marginBottom:"4vh"}}><b>RNAGym</b></h1>
                 <div className="text-div">
