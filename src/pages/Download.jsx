@@ -33,10 +33,10 @@ function Download() {
                 </div>
                 <div className="header-buttons">
                     <h3>3D Structure</h3>
-                    <a href=""><Button className="indiv_button">Alignments</Button></a>
-                    <a href=""><Button className="indiv_button">Monomer sequences</Button></a>
-                    <a href=""><Button className="indiv_button">Complex sequences</Button></a>
-                    <a href=""><Button className="indiv_button">Model predictions</Button></a>
+                    <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/3D_alignments.tar.xz"><Button className="indiv_button">Alignments</Button></a>
+                    <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/monomer.csv"><Button className="indiv_button">Monomer scores</Button></a>
+                    <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/multimer.csv"><Button className="indiv_button">Complex scores</Button></a>
+                    <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/3D_model_outputs.tar.xz"><Button className="indiv_button">Model predictions (PDBs)</Button></a>
                 </div>
             </div>
             <br/>
