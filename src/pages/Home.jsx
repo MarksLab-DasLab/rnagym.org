@@ -37,7 +37,7 @@ function Home() {
                     <center><p><b>Marks Lab</b> - Harvard Medical School</p></center>
                 </div>
                 <div className="images-div" style={{ display: "flex", justifyContent: "center" }}>
-                    <img src="/assets/hmslogo.png" style={{ width: "60%", height: "60%" }} />
+                    <img src="/assets/hmslogo.png" style={{ height: "110px", width: "auto", paddingBottom: "25px" }} />
                 </div>
             </div>
         </div>
