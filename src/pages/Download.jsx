@@ -4,7 +4,6 @@ import React from 'react';
 import { Button } from '@mantine/core';
 import './css/Download.css';
 function Download() {
-    const root_folder = "https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3"
     return (
         <div className="download-div">
             <h2>Data</h2>
