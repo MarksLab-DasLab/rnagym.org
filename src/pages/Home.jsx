@@ -7,7 +7,19 @@ function Home() {
                 <div className="images-div" style={{ display: "flex", justifyContent: "center" }}>
                     <img src="/assets/RNAGym_small.png" style={{ width: "40%", height: "auto" }} />
                 </div>
-                <h1 style={{marginTop: "2vh", marginBottom:"4vh"}}><b>RNAGym</b></h1>
+                <h1 style={{marginTop: "2vh", marginBottom:"2vh"}}><b>RNAGym</b></h1>
+                <div className="home-link-strip">
+                    <a className="home-icon-link" href="https://github.com/MarksLab-DasLab/RNAGym" target="_blank" rel="noopener noreferrer">
+                        <i className="fa-brands fa-github" aria-hidden="true"></i>
+                        <span className="home-link-label">GitHub</span>
+                    </a>
+                    <span className="home-link-separator">|</span>
+                    <a className="home-icon-link" href="https://www.biorxiv.org/content/10.1101/2025.06.16.660049v1" target="_blank" rel="noopener noreferrer">
+                        <i className="fa-solid fa-file-lines" aria-hidden="true"></i>
+                        <span className="home-link-label">bioRxiv</span>
+                    </a>
+                </div>
+                <div style={{ marginBottom: "2vh" }} />
                 <div className="text-div">
                     <p className="home-text"> <b>RNAGym</b> is a collection of benchmarks aiming at comparing the ability of models to predict the effects of RNA mutations on fitness, secondary structure, and tertiary structure.
                     The benchmarks in RNAGym are divided by category (fitness, 2° structure, 3° structure) and were evaluated in a zero-shot setting.</p>

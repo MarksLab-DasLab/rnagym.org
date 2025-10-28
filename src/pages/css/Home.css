@@ -38,6 +38,36 @@
     gap:2rem;
 }
 
+.home-link-strip{
+    display:flex;
+    gap:1rem;
+    align-items:center;
+    justify-content:center;
+    font-size:1rem;
+}
+
+.home-icon-link{
+    display:inline-flex;
+    align-items:center;
+    gap:0.45rem;
+    text-decoration:none;
+    color:#00509d;
+    font-weight:600;
+}
+
+.home-icon-link:hover,
+.home-icon-link:focus{
+    text-decoration:underline;
+}
+
+.home-link-separator{
+    color:#555;
+}
+
+.home-icon-link i{
+    font-size:1.1rem;
+}
+
 .fitness-button-container,
 .secondary-structure-button-container,
 .tertiary-structure-button-container{
