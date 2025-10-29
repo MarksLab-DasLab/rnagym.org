@@ -36,6 +36,7 @@ function Download() {
                     <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/monomer.csv"><Button className="indiv_button">Monomer scores</Button></a>
                     <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/multimer.csv"><Button className="indiv_button">Complex scores</Button></a>
                     <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/3D_model_outputs.tar.xz"><Button className="indiv_button">Model predictions (PDBs)</Button></a>
+                    <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/3D_train_to_test_usalign.tar.xz"><Button className="indiv_button">Test-to-train TM scores</Button></a>
                 </div>
             </div>
             <br/>
