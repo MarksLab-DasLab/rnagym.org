@@ -32,6 +32,7 @@ function Download() {
                 </div>
                 <div className="header-buttons">
                     <h3>3D Structure</h3>
+                    <a href="https://github.com/MarksLab-DasLab/RNAGym/tree/main/3d"><Button className="indiv_button">Train/test splits</Button></a>
                     <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/3D_alignments.tar.xz"><Button className="indiv_button">Alignments</Button></a>
                     <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/monomer.csv"><Button className="indiv_button">Monomer scores</Button></a>
                     <a href="https://marks.hms.harvard.edu/rnagym/tertiary_structure_prediction/multimer.csv"><Button className="indiv_button">Complex scores</Button></a>
