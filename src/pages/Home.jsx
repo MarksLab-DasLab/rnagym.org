@@ -35,7 +35,7 @@ function Home() {
                     </div>
                     <div className="tertiary-structure-button-container">
                         <h3>3D Structure Benchmarks</h3>
-                        <DirectionallyAwareButton filled="true" pageLink="/benchmarks" viewType="aggregate" dataDomain="tertiary_structure" modelParadigm="zero_shot" sortKey="Rank-ASC" currStatistic="Spearman">Tertiary Structures<br/> (215 sequences, 66 Rfams)</DirectionallyAwareButton>
+                        <DirectionallyAwareButton filled="true" pageLink="/benchmarks" viewType="aggregate" dataDomain="tertiary_structure" modelParadigm="zero_shot" sortKey="Rank-ASC" currStatistic="Spearman">Tertiary Structures<br/> (2.8k sequences, 585 Rfams)</DirectionallyAwareButton>
                     </div>
                 </div>
             </div>
